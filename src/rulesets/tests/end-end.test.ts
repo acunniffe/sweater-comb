@@ -1,5 +1,4 @@
 import path from "path";
-import fs from "fs-extra";
 import { SnykApiCheckDsl, SynkApiCheckContext } from "../../dsl";
 import { newSnykApiCheckService } from "../../service";
 import { specFromInputToResults } from "@useoptic/api-checks";
